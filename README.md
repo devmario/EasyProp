@@ -27,3 +27,6 @@ devmario, mario@vanillabreeze.com
 ## License
 
 EasyProp is available under the MIT license. See the LICENSE file for more info.
+=======
+Extension dictionary mounted on NSObject
+>>>>>>> d06cfb364ccc67cdb31eaba34d00e3f8c8cf1fc8
