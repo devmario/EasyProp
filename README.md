@@ -1,6 +1,6 @@
 # EasyProp
 
-Extension dictionary mounted on NSObject
+Extension dictionary mounted on NSObject for **swift**
 
 [![CI Status](http://img.shields.io/travis/devmario/EasyProp.svg?style=flat)](https://travis-ci.org/devmario/EasyProp)
 [![Version](https://img.shields.io/cocoapods/v/EasyProp.svg?style=flat)](http://cocoapods.org/pods/EasyProp)
@@ -16,8 +16,6 @@ var object:NSObject = NSObject()
 object.prop?["foo"] = "var"
 print(object.prop, object.prop?["foo"])
 ```
-
-## Requirements
 
 ## Installation
 
