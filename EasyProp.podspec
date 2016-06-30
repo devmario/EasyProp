@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyProp'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Extension dictionary mounted on NSObject.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'EasyProp/Classes/**/*'
+  s.source_files = 'Classes/*'
   
   # s.resource_bundles = {
   #   'EasyProp' => ['EasyProp/Assets/*.png']
