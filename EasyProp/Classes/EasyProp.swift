@@ -28,14 +28,14 @@ extension NSObject {
     
     public var prop:[String:AnyObject]? {
         get {
-            return self._associatedObject(key: "prop") {
+            return self._associatedObject("prop") {
                 let prop:[String:AnyObject] = [:]
                 return prop
             }
         }
         
         set {
-            self._associateObject(key: "prop", value: newValue)
+            self._associateObject("prop", value: newValue)
         }
     }
 }
