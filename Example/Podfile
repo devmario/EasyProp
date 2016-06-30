@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EasyProp_Tests' do
+  pod 'EasyProp', :path => '../'
+  
+  
+end
