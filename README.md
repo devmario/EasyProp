@@ -10,9 +10,11 @@ Extension dictionary mounted on NSObject
 ## Example
 
 ```swift
+import EasyProp
+
 var object:NSObject = NSObject()
-object.prop["foo"] = "var"
-print(object.prop, object.prop["foo"])
+object.prop?["foo"] = "var"
+print(object.prop, object.prop?["foo"])
 ```
 
 ## Requirements
